@@ -83,10 +83,13 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 400px;
-  .nft{
-    width: 400px;
-    height: 400px;
+
+  img {
+    width: 386px;
+    aspect-ratio:1;
+
   }
+
 }
 
 
@@ -117,7 +120,7 @@
     height: 14px;
   }
 
-  .price_tag{
+  .price_tag {
     text-align: right;
   }
 }
