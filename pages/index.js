@@ -24,11 +24,9 @@ export default function Home({assets}) {
                 <div className={styles.grid}>
                     {assets.map((asset => (
                         <div key={asset.id} className={styles.card}>
-                            <Image
-                                // src={a1}
+                            <img
+                                className={styles.nft}
                                 src={asset.image_url}
-                                width={500}
-                                height={500}
                             />
                             <div className={styles.info}>
                                 <div className="left">
@@ -67,7 +65,7 @@ export async function getStaticProps() {
 
     return {
         props: {
-            assets: assets.assets.slice(0, 4)
+            assets: assets.assets
         },
     }
 }
