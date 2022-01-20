@@ -29,10 +29,10 @@ export default function Home({assets}) {
                             {/*    src={asset.image_url}*/}
                             {/*/>*/}
                             <div className={styles.info}>
-                                {/*<div className={styles.left}>*/}
-                                {/*    <div className={styles.col_name}>{asset.collection.name}</div>*/}
-                                {/*    <div className={styles.item_name}>{asset.name}</div>*/}
-                                {/*</div>*/}
+                                <div className={styles.left}>
+                                    <div className={styles.col_name}>{asset.collection.name}</div>
+                                    <div className={styles.item_name}>{asset.name}</div>
+                                </div>
                                 <div className={styles.price_tag}>
                                     <div>Price</div>
                                     <div>
