@@ -24,10 +24,10 @@ export default function Home({assets}) {
                 <div className={styles.grid}>
                     {assets.map((asset => (
                         <div key={asset.id} className={styles.card}>
-                            {/*<img*/}
-                            {/*    className={styles.nft}*/}
-                            {/*    src={asset.image_url}*/}
-                            {/*/>*/}
+                            <img
+                                className={styles.nft}
+                                src={asset.image_url}
+                            />
                             <div className={styles.info}>
                                 <div className={styles.left}>
                                     <div className={styles.col_name}>{asset.collection.name}</div>
